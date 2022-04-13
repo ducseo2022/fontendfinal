@@ -1,0 +1,44 @@
+*{
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+   
+  }
+
+.feature{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 80vh;
+    align-items: center;
+}
+
+.feature .title {
+text-align: center;
+  font-size: 3.5rem;
+  padding:1rem;
+  color:black;
+}
+
+.col{
+    margin: 50px;
+}
+.title{
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+}
+.small-text{
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+    text-align: center;    
+}
+.news{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+.four{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 300px;
+}
