@@ -20,7 +20,6 @@ export default function PaginationNews() {
       const res = await PaginationApi(currentPage);
       setData(res.data.items);
       setTotalPage(res.data.meta.totalPages);
-      console.log("check data and total :",res.data);
     };
 
     getListPost();
@@ -29,7 +28,6 @@ export default function PaginationNews() {
   const handleClick = (x,postId ) =>{
 
     history.push(`post/${postId}`)
-    console.log("check")
 
  }
 
@@ -38,8 +36,6 @@ export default function PaginationNews() {
   const handlePageChange = (X , i) =>{
 
     setCurrentPage(i);
-    console.log("check currentpage :", X )
-    console.log("check ",i)
  }
 
   for (let number = 1; number <= totalPage ; number++) {
@@ -98,25 +94,3 @@ export default function PaginationNews() {
     
 
 }
-// const [listPost, setListPost] = useState([]);
-
-// useEffect(() => {
-//   const getListPost = async () => {
-//     try {
-//       const params = {
-//         page: 1,
-//         limit: 4,
-
-//       };
-//       const res = await postApi.getAll(params);
-
-//       setListPost(res.data.items);
-//       console.log("check four post :" , res.data);
-
-//     } catch (error) {
-//       console.log('Failed to fetch list post: ', error);
-//     }
-//   }
-
-//   getListPost();
-// }, []);

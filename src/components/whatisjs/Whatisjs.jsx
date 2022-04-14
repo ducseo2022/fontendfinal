@@ -166,35 +166,35 @@ export default function Whatisjs() {
                         <tbody>
                             <tr>
                                 <td><FontAwesomeIcon icon={faCircle}></FontAwesomeIcon></td>
-                                <td className="nd"><img src="https://scontent.fhph3-1.fna.fbcdn.net/v/t39.30808-6/277353426_5021696387944837_5433350480935908705_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=TFw9iYUFyGoAX_yPNHu&_nc_ht=scontent.fhph3-1.fna&oh=00_AT_VRI9wBu5exR03GvGpu9aj7FELBuJOAL5UwvMGOFv2Ag&oe=625201B0" alt="CN1" width={300} /></td>
+                                <td className="nd"><img src="https://firebasestorage.googleapis.com/v0/b/bcm-team-4-upload.appspot.com/o/image%2Fbcm.png?alt=media&token=29afa88d-efab-4a99-9dfb-0e7d773e12a7" alt="CN1" width={300} /></td>
                             </tr>
                             <tr>
                                 <td><FontAwesomeIcon icon={faCircle}></FontAwesomeIcon></td>
-                                <td className="nd"><img src="https://scontent.fhph3-1.fna.fbcdn.net/v/t39.30808-6/277353426_5021696387944837_5433350480935908705_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=TFw9iYUFyGoAX_yPNHu&_nc_ht=scontent.fhph3-1.fna&oh=00_AT_VRI9wBu5exR03GvGpu9aj7FELBuJOAL5UwvMGOFv2Ag&oe=625201B0" alt="CN2" width={300} /></td>
+                                <td className="nd"><img src="https://firebasestorage.googleapis.com/v0/b/bcm-team-4-upload.appspot.com/o/image%2Fbcm.png?alt=media&token=29afa88d-efab-4a99-9dfb-0e7d773e12a7" alt="CN2" width={300} /></td>
                             </tr>
                             <tr>
                                 <td><FontAwesomeIcon icon={faCircle}></FontAwesomeIcon></td>
-                                <td className="nd"><img src="https://scontent.fhph3-1.fna.fbcdn.net/v/t39.30808-6/277353426_5021696387944837_5433350480935908705_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=TFw9iYUFyGoAX_yPNHu&_nc_ht=scontent.fhph3-1.fna&oh=00_AT_VRI9wBu5exR03GvGpu9aj7FELBuJOAL5UwvMGOFv2Ag&oe=625201B0" alt="CN3" width={300} /></td>
+                                <td className="nd"><img src="https://firebasestorage.googleapis.com/v0/b/bcm-team-4-upload.appspot.com/o/image%2Fbcm.png?alt=media&token=29afa88d-efab-4a99-9dfb-0e7d773e12a7" alt="CN3" width={300} /></td>
                             </tr>
                             <tr>
                                 <td><FontAwesomeIcon icon={faCircle}></FontAwesomeIcon></td>
-                                <td className="nd"><img src="https://scontent.fhph3-1.fna.fbcdn.net/v/t39.30808-6/277353426_5021696387944837_5433350480935908705_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=TFw9iYUFyGoAX_yPNHu&_nc_ht=scontent.fhph3-1.fna&oh=00_AT_VRI9wBu5exR03GvGpu9aj7FELBuJOAL5UwvMGOFv2Ag&oe=625201B0" alt="CN4" width={300} /></td>
+                                <td className="nd"><img src="https://firebasestorage.googleapis.com/v0/b/bcm-team-4-upload.appspot.com/o/image%2Fbcm.png?alt=media&token=29afa88d-efab-4a99-9dfb-0e7d773e12a7" alt="CN4" width={300} /></td>
                             </tr>
                             <tr>
                                 <td><FontAwesomeIcon icon={faCircle}></FontAwesomeIcon></td>
-                                <td className="nd"><img src="https://scontent.fhph3-1.fna.fbcdn.net/v/t39.30808-6/277353426_5021696387944837_5433350480935908705_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=TFw9iYUFyGoAX_yPNHu&_nc_ht=scontent.fhph3-1.fna&oh=00_AT_VRI9wBu5exR03GvGpu9aj7FELBuJOAL5UwvMGOFv2Ag&oe=625201B0" alt="CN5" width={300} /></td>
+                                <td className="nd"><img src="https://firebasestorage.googleapis.com/v0/b/bcm-team-4-upload.appspot.com/o/image%2Fbcm.png?alt=media&token=29afa88d-efab-4a99-9dfb-0e7d773e12a7" alt="CN5" width={300} /></td>
                             </tr>
                             <tr>
                                 <td><FontAwesomeIcon icon={faCircle}></FontAwesomeIcon></td>
-                                <td className="nd"><img src="https://scontent.fhph3-1.fna.fbcdn.net/v/t39.30808-6/277353426_5021696387944837_5433350480935908705_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=TFw9iYUFyGoAX_yPNHu&_nc_ht=scontent.fhph3-1.fna&oh=00_AT_VRI9wBu5exR03GvGpu9aj7FELBuJOAL5UwvMGOFv2Ag&oe=625201B0" alt="CN6" width={300} /></td>
+                                <td className="nd"><img src="https://firebasestorage.googleapis.com/v0/b/bcm-team-4-upload.appspot.com/o/image%2Fbcm.png?alt=media&token=29afa88d-efab-4a99-9dfb-0e7d773e12a7" alt="CN6" width={300} /></td>
                             </tr>
                             <tr>
                                 <td><FontAwesomeIcon icon={faCircle}></FontAwesomeIcon></td>
-                                <td className="nd"><img src="https://scontent.fhph3-1.fna.fbcdn.net/v/t39.30808-6/277353426_5021696387944837_5433350480935908705_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=TFw9iYUFyGoAX_yPNHu&_nc_ht=scontent.fhph3-1.fna&oh=00_AT_VRI9wBu5exR03GvGpu9aj7FELBuJOAL5UwvMGOFv2Ag&oe=625201B0" alt="CN7" width={300} /></td>
+                                <td className="nd"><img src="https://firebasestorage.googleapis.com/v0/b/bcm-team-4-upload.appspot.com/o/image%2Fbcm.png?alt=media&token=29afa88d-efab-4a99-9dfb-0e7d773e12a7" alt="CN7" width={300} /></td>
                             </tr>
                             <tr>
                                 <td><FontAwesomeIcon icon={faCircle}></FontAwesomeIcon></td>
-                                <td className="nd"><img src="https://scontent.fhph3-1.fna.fbcdn.net/v/t39.30808-6/277353426_5021696387944837_5433350480935908705_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=TFw9iYUFyGoAX_yPNHu&_nc_ht=scontent.fhph3-1.fna&oh=00_AT_VRI9wBu5exR03GvGpu9aj7FELBuJOAL5UwvMGOFv2Ag&oe=625201B0" alt="CN8" width={300} /></td>
+                                <td className="nd"><img src="https://firebasestorage.googleapis.com/v0/b/bcm-team-4-upload.appspot.com/o/image%2Fbcm.png?alt=media&token=29afa88d-efab-4a99-9dfb-0e7d773e12a7" alt="CN8" width={300} /></td>
                             </tr>
                         </tbody>
                     </table>

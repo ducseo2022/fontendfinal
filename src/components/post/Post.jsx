@@ -14,7 +14,6 @@ export default function Post() {
      const getListPost = async() =>{
         const res = await getAll()
         setListPost(res.data)
-        console.log("check all post", res.data)
 
      }  
   getListPost();
@@ -24,7 +23,6 @@ export default function Post() {
   const handleClick = (x,postId ) =>{
 
     history.push(`post/${postId}`)
-    console.log("check")
 
  }
 

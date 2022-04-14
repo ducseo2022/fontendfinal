@@ -6,22 +6,36 @@ import { storage } from "./firebase";
 
 export default function Write() {
   const url="http://localhost:3001/post"
+  
+
   const [data,setData] = useState({
       title: "",
       content: "",
       image: "",
-      adminId: ""
   })
   function submit(e){
+    if(!data.title){
+      alert('empty title');
+      return;
+    }
+    if(!data.content){
+      alert('empty content');
+      return;
+    }
+    if(!data.image){
+      alert('empty image');
+      return;
+    }
     e.preventDefault();
     axios.post(url,{
       title: data.title,
       content: data.content,
       image: data.image
+      
 
     } )
     .then(res=>{
-      console.log(res.data)
+      
     })
   }
 
@@ -29,7 +43,7 @@ export default function Write() {
       const newdata={...data}
       newdata[e.target.id] = e.target.value
       setData(newdata)
-      console.log(newdata)
+     
   }
 
   const [progress, setProgress] = useState(0);
@@ -57,7 +71,7 @@ export default function Write() {
       () => {
         getDownloadURL(uploadTask.snapshot.ref).then((downloadURL) => {
           data.image=(downloadURL)
-          console.log("File available at", downloadURL);
+          
         });
       }
     );
@@ -85,6 +99,7 @@ export default function Write() {
             type="text"
             autoFocus={true}
           />
+
         </div>
         <div className="writeFormGroup">
           <textarea
@@ -95,6 +110,7 @@ export default function Write() {
             placeholder="Tell your story..."
             type="text"
             autoFocus={true}
+
           />
         </div>
         <button className="writeSubmit" type="submit">

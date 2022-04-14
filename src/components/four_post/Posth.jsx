@@ -13,9 +13,6 @@ export default function Posth({img}) {
       const getListPost = async() => {
         const res = await getSidePost()
         setListPost(res.data)
-        console.log("check four post : ",res.data)
-
-
       }
    getListPost()
     },[]);
@@ -23,7 +20,6 @@ export default function Posth({img}) {
    const handleClick = (x,postId ) =>{
 
       history.push(`post/${postId}`)
-      console.log("check")
 
    }
   

@@ -16,7 +16,6 @@ export default function SinglePost() {
     const getListPost = async () => {
       const res = await getPostId(postId);
       setPost(res.data)
-      console.log("check:", res.data)
     }
     getListPost();
 

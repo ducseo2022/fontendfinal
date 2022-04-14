@@ -2,7 +2,7 @@ import axios from "axios";
 import  queryString     from "query-string"
 
 const axiosClient = axios.create({
-    baseURL: "https://1645-2001-ee0-79d6-7060-41cf-e205-6c83-aa8a.ngrok.io",
+    baseURL: "http://localhost:3001",
     headers: {
         'content-type': 'application/json',
     },

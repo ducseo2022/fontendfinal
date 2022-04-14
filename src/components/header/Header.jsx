@@ -14,10 +14,9 @@ export default function Header() {
   useEffect(() => {
     const getListPost = async () => {
 
-      const res = await axios.get("https://1645-2001-ee0-79d6-7060-41cf-e205-6c83-aa8a.ngrok.io/post/trending");
+      const res = await axios.get("http://localhost:3001/post/trending");
  
       setListPost(res.data);
-      console.log("check",res.data)
    };
    
    getListPost()
@@ -26,7 +25,6 @@ export default function Header() {
   const handleClick = (x,postId ) =>{
 
     history.push(`post/${postId}`)
-    console.log("check")
 
  }
   

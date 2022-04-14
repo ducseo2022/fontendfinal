@@ -12,7 +12,6 @@ export default function Posth() {
      const getListPost = async() =>{
        const res = await getCenterPost()
        setListPost(res.data)
-       console.log("check six post :",res.data)
      }
        getListPost()
    },[]);
@@ -20,7 +19,6 @@ export default function Posth() {
    const handleClick = (x,postId ) =>{
 
     history.push(`post/${postId}`)
-    console.log("check")
 
  }
 
